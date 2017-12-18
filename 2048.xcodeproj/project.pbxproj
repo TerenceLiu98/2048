@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		83EEA4B61FDE69660045D6FA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 83EEA4B51FDE69660045D6FA /* main.c */; };
+		83EEA4BE1FDE69FC0045D6FA /* printout.c in Sources */ = {isa = PBXBuildFile; fileRef = 83EEA4BD1FDE69FC0045D6FA /* printout.c */; };
+		83EEA4C11FDE6A240045D6FA /* moveup.c in Sources */ = {isa = PBXBuildFile; fileRef = 83EEA4C01FDE6A240045D6FA /* moveup.c */; };
+		83EEA4C41FDE6A3D0045D6FA /* movedown.c in Sources */ = {isa = PBXBuildFile; fileRef = 83EEA4C31FDE6A3D0045D6FA /* movedown.c */; };
+		83EEA4C71FDE6A5B0045D6FA /* moveright.c in Sources */ = {isa = PBXBuildFile; fileRef = 83EEA4C61FDE6A5B0045D6FA /* moveright.c */; };
+		83EEA4CA1FDE6A680045D6FA /* moveleft.c in Sources */ = {isa = PBXBuildFile; fileRef = 83EEA4C91FDE6A680045D6FA /* moveleft.c */; };
+		83EEA4CD1FDE6A7D0045D6FA /* initialize.c in Sources */ = {isa = PBXBuildFile; fileRef = 83EEA4CC1FDE6A7D0045D6FA /* initialize.c */; };
+		83EEA4D01FDE6AA10045D6FA /* gameover.c in Sources */ = {isa = PBXBuildFile; fileRef = 83EEA4CF1FDE6AA10045D6FA /* gameover.c */; };
+		83EEA4D31FDE6BAD0045D6FA /* begin.c in Sources */ = {isa = PBXBuildFile; fileRef = 83EEA4D21FDE6BAD0045D6FA /* begin.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,22 @@
 /* Begin PBXFileReference section */
 		83EEA4B21FDE69660045D6FA /* 2048 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2048; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EEA4B51FDE69660045D6FA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		83EEA4BC1FDE69FC0045D6FA /* printout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printout.h; sourceTree = "<group>"; };
+		83EEA4BD1FDE69FC0045D6FA /* printout.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = printout.c; sourceTree = "<group>"; };
+		83EEA4BF1FDE6A240045D6FA /* moveup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moveup.h; sourceTree = "<group>"; };
+		83EEA4C01FDE6A240045D6FA /* moveup.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = moveup.c; sourceTree = "<group>"; };
+		83EEA4C21FDE6A3D0045D6FA /* movedown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = movedown.h; sourceTree = "<group>"; };
+		83EEA4C31FDE6A3D0045D6FA /* movedown.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = movedown.c; sourceTree = "<group>"; };
+		83EEA4C51FDE6A5B0045D6FA /* moveright.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moveright.h; sourceTree = "<group>"; };
+		83EEA4C61FDE6A5B0045D6FA /* moveright.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = moveright.c; sourceTree = "<group>"; };
+		83EEA4C81FDE6A680045D6FA /* moveleft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moveleft.h; sourceTree = "<group>"; };
+		83EEA4C91FDE6A680045D6FA /* moveleft.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = moveleft.c; sourceTree = "<group>"; };
+		83EEA4CB1FDE6A7D0045D6FA /* initialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = initialize.h; sourceTree = "<group>"; };
+		83EEA4CC1FDE6A7D0045D6FA /* initialize.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = initialize.c; sourceTree = "<group>"; };
+		83EEA4CE1FDE6AA10045D6FA /* gameover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gameover.h; sourceTree = "<group>"; };
+		83EEA4CF1FDE6AA10045D6FA /* gameover.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gameover.c; sourceTree = "<group>"; };
+		83EEA4D11FDE6BAD0045D6FA /* begin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = begin.h; sourceTree = "<group>"; };
+		83EEA4D21FDE6BAD0045D6FA /* begin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = begin.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +67,22 @@
 			children = (
 				83EEA4B41FDE69660045D6FA /* 2048 */,
 				83EEA4B31FDE69660045D6FA /* Products */,
+				83EEA4BC1FDE69FC0045D6FA /* printout.h */,
+				83EEA4BD1FDE69FC0045D6FA /* printout.c */,
+				83EEA4BF1FDE6A240045D6FA /* moveup.h */,
+				83EEA4C01FDE6A240045D6FA /* moveup.c */,
+				83EEA4C21FDE6A3D0045D6FA /* movedown.h */,
+				83EEA4C31FDE6A3D0045D6FA /* movedown.c */,
+				83EEA4C51FDE6A5B0045D6FA /* moveright.h */,
+				83EEA4C61FDE6A5B0045D6FA /* moveright.c */,
+				83EEA4C81FDE6A680045D6FA /* moveleft.h */,
+				83EEA4C91FDE6A680045D6FA /* moveleft.c */,
+				83EEA4CB1FDE6A7D0045D6FA /* initialize.h */,
+				83EEA4CC1FDE6A7D0045D6FA /* initialize.c */,
+				83EEA4CE1FDE6AA10045D6FA /* gameover.h */,
+				83EEA4CF1FDE6AA10045D6FA /* gameover.c */,
+				83EEA4D11FDE6BAD0045D6FA /* begin.h */,
+				83EEA4D21FDE6BAD0045D6FA /* begin.c */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +159,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83EEA4BE1FDE69FC0045D6FA /* printout.c in Sources */,
+				83EEA4D01FDE6AA10045D6FA /* gameover.c in Sources */,
+				83EEA4CD1FDE6A7D0045D6FA /* initialize.c in Sources */,
+				83EEA4C71FDE6A5B0045D6FA /* moveright.c in Sources */,
+				83EEA4C11FDE6A240045D6FA /* moveup.c in Sources */,
+				83EEA4CA1FDE6A680045D6FA /* moveleft.c in Sources */,
+				83EEA4D31FDE6BAD0045D6FA /* begin.c in Sources */,
+				83EEA4C41FDE6A3D0045D6FA /* movedown.c in Sources */,
 				83EEA4B61FDE69660045D6FA /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
